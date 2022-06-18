@@ -1,0 +1,3 @@
+deploy:
+  - okteto build -t okteto.dev/c-data-04_project-01_deploy_api_on_kubernetes_for_free:latest 
+  - kubectl apply -f k8s

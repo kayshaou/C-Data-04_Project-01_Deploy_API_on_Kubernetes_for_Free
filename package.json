@@ -1,0 +1,24 @@
+{
+  "name": "c-data-04_project-01_deploy_api_on_kubernetes_for_free",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayshaou/C-Data-04_Project-01_Deploy_API_on_Kubernetes_for_Free.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayshaou/C-Data-04_Project-01_Deploy_API_on_Kubernetes_for_Free/issues"
+  },
+  "homepage": "https://github.com/kayshaou/C-Data-04_Project-01_Deploy_API_on_Kubernetes_for_Free#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
