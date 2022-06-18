@@ -1,1 +1,2 @@
-# C-Data-04_Project-01_Deploy_API_on_Kubernetes_for_Free
+#Deploy_API_on_Kubernetes_for_Free
+## learn to deploy on kubernetes for free!
