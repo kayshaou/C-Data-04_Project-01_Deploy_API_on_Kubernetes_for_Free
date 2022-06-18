@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => {
-
+app.get("/home", (req, res) => {
+    console.log("requested {}", req);
     const message = {
         "msg":"hellow",
         "timestamp": Date.now
