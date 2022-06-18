@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
+  name: c-data-04-project-01-deploy-api-on-kubernetes-for-free
   labels:
-    name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
+    name: c-data-04-project-01-deploy-api-on-kubernetes-for-free
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec: 
@@ -13,4 +13,4 @@ spec:
       port: 8081
       targetPort: 5001
   selector:
-    name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
+    name: c-data-04-project-01-deploy-api-on-kubernetes-for-free
