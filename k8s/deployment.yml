@@ -3,7 +3,7 @@ kind: Deployment
 metadata: 
   name: c-data-04-project-01-deploy-api-on-kubernetes-for-free
 spec: 
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels: 
       name: c-data-04-project-01-deploy-api-on-kubernetes-for-free

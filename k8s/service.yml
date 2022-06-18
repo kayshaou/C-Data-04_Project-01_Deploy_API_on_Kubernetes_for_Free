@@ -10,7 +10,7 @@ spec:
   type: ClusterIP
   ports:
     - protocol: TCP
-      port: 8081
+      port: 8080
       targetPort: 5000
   selector:
     name: c-data-04-project-01-deploy-api-on-kubernetes-for-free
