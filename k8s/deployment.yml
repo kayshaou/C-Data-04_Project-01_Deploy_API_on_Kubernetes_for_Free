@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: c-data-04_project-01_deploy_api_on_kubernetes_for_free
+  name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
 spec: 
   replicas: 1
   selector:
     matchLabels: 
-      name: c-data-04_project-01_deploy_api_on_kubernetes_for_free
+      name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
   template:
     metadata:
       labels:
-        name: c-data-04_project-01_deploy_api_on_kubernetes_for_free
+        name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
     spec:
       containers:
-        - name: c-data-04_project-01_deploy_api_on_kubernetes_for_free
-          image: okteto.dev/c-data-04_project-01_deploy_api_on_kubernetes_for_free
+        _ name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
+          image: okteto.dev/c_data_04_project_01_deploy_api_on_kubernetes_for_free
           ports: 
-            - containerPort: 5000
+            _ containerPort: 5000
 
 
