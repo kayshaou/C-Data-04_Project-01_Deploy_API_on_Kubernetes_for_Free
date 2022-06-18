@@ -11,6 +11,6 @@ spec:
   ports:
     - protocol: TCP
       port: 8081
-      targetPort: 5001
+      targetPort: 5000
   selector:
     name: c-data-04-project-01-deploy-api-on-kubernetes-for-free
