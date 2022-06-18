@@ -13,9 +13,9 @@ spec:
         name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
     spec:
       containers:
-        _ name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
+        - name: c_data_04_project_01_deploy_api_on_kubernetes_for_free
           image: okteto.dev/c_data_04_project_01_deploy_api_on_kubernetes_for_free
           ports: 
-            _ containerPort: 5000
+            - containerPort: 5000
 
 
